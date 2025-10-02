@@ -1,0 +1,15 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#intro {
+    position: absolute;
+    top: 0;
+    transition: transform 2s ease-in-out;
+}
+
+#intro.slide-off {
+    transform: translateY(-2000px);
+}
+
